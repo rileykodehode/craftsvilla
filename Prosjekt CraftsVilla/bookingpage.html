@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The booking page of Craftsvilla. Meant for customers to book their activities."
+    />
+    <link rel="icon" href="images/art-logo.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Booking</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <!-- Three Icons -->
+        <div class="icons">
+          <div>
+            <img class="menu-button" src="images/Menu Icon.svg" alt="" />
+          </div>
+          <div>
+            <img class="logo" src="images/art-logo.svg" alt="" />
+          </div>
+          <div>
+            <img class="search-icon" src="images/Search Icon.svg" alt="" />
+          </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div>
+          <label for="search"></label>
+          <input type="search" id="search" placeholder="Søk her..." />
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="home-nav">
+      <ul class="nav-bar">
+        <li class="nav-button">
+          <img src="images/Home icon.svg" alt="" />
+          <p>Hjem</p>
+        </li>
+        <li>
+          <img src="images/Register Icon.svg" alt="" />
+          <p>Booking</p>
+        </li>
+        <li>
+          <img src="images/Support icon.svg" alt="" />
+          <p>Kontakt</p>
+        </li>
+        <li>
+          <img src="images/Gallery icon.svg" alt="" />
+          <p>Galleri</p>
+        </li>
+        <!-- This button is seperated at the end of the line. -->
+        <li class="user">
+          <img src="images/User Icon.svg" alt="" />
+        </li>
+      </ul>
+    </nav>
+    <!-- Main, Booking Cards -->
+    <main class="main-booking">
+      <section class="book-hero">
+        <!-- Card 1 -->
+        <div class="featured-card">
+          <img class="featured-image" src="images/painting.jpg" alt="" />
+          <div class="featured-card-info">
+            <h2>Akvarellmaling</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <p class="price">200,-</p>
+          <button>Bestill</button>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="featured-card">
+          <img class="featured-image" src="images/painting.jpg" alt="" />
+          <div class="featured-card-info">
+            <h2>Mosaikkmaling</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <p class="price">400,-</p>
+          <button>Bestill</button>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="featured-card">
+          <img class="featured-image" src="images/painting.jpg" alt="" />
+          <div class="featured-card-info">
+            <h2>Lerretsmaling</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <p class="price">300,-</p>
+          <button>Bestill</button>
+        </div>
+      </section>
+    </main>
+    <footer class="end">
+      <h4>Something to fill the void.</h4>
+    </footer>
+  </body>
+</html>
